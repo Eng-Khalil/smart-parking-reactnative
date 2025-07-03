@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "smartparking",
+    "slug": "smart-parking",
+    "version": "1.0.0",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "plugins": [],
+    "orientation": "portrait",
+    "icon": "./assets/logo-dark.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+       "config": {
+        "googleMapsApiKey": "AIzaSyCMH08nZVjwL9_xrg8oqujciUbYHzxvgjA"
+      },
+      "supportsTablet": true
+    },
+    "android": {
+       "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCMH08nZVjwL9_xrg8oqujciUbYHzxvgjA"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.group.smartparking"
+    },
+    
+    "extra": {
+      "eas": {
+        "projectId": "cc6d5afb-87ce-4572-8801-19b3a569cc07"
+      }
+    },
+    "owner": "owen_albert"
+  }
+}
